@@ -4,7 +4,7 @@
       "command": "uv",
       "args": [
         "--directory",
-        "cloud-assistant",
+        "${PLUGIN_ROOT}/../../../cloud-assistant",
         "run",
         "fastmcp",
         "run",
