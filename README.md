@@ -1,10 +1,12 @@
-# Simple Demos
+# Simple Antigravity Customization Demos
 
-|Name | Location | Purpose |
+Minimal, self-contained examples of Antigravity (`agy`) workspace customizations. Open any demo directory in your harness (or `cd` into it and run `agy`) to try it out.
+
+| Name | Directory | Purpose |
 | --- | --- | --- |
-| Directory-based Rule | demo-directory-rule | Shows how agents.md can influence agy behavior |
-| Rule | demo-rule | Shows an alternative way to influence agy behavior |
-| Skill | demo-skill | Shows a sample skill - scaffold a dotnet solution |
-| Hook | demo-hook | Shows a hook that blocks installing Microsoft Python packages |
-| MCP | demo-mcp | Shows STDIO mcp server as a workspsace customization |
-| Subagent | demo-subagent | Shows a custom subagent configured to act as a legacy dotnet expert |
+| Directory-based Rule | [demo-directory-rule](./demo-directory-rule) | Uses `AGENTS.md` to set a persona rule |
+| Rule | [demo-rule](./demo-rule) | Uses an `always_on` rule in `.agents/rules/` to set a persona |
+| Skill | [demo-skill](./demo-skill) | Custom skill to scaffold an opinionated .NET solution |
+| Hook | [demo-hook](./demo-hook) | `PreToolUse` hook that blocks installing Microsoft Python packages |
+| MCP | [demo-mcp](./demo-mcp) | Workspace plugin running a local stdio FastMCP server |
+| Subagent | [demo-subagent](./demo-subagent) | Custom subagent acting as a legacy .NET Framework (1.0–4.8) SME |
