@@ -7,3 +7,4 @@
 | Skill | demo-skill | Shows a sample skill - scaffold a dotnet solution |
 | Hook | demo-hook | Shows a hook that blocks installing Microsoft Python packages |
 | MCP | demo-mcp | Shows STDIO mcp server as a workspsace customization |
+| Subagent | demo-subagent | Shows a custom subagent configured to act as a legacy dotnet expert |
