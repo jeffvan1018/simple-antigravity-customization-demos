@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "cloud-assistant": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "cloud-assistant",
+        "run",
+        "fastmcp",
+        "run",
+        "main.py",
+        "--no-banner"
+      ]
+    }
+  }
+}

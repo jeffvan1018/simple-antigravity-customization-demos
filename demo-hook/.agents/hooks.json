@@ -1,0 +1,16 @@
+{
+  "block-microsoft-python-packages": {
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ./scripts/block_microsoft_pypi.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
